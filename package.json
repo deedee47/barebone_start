@@ -1,0 +1,40 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "creating react app from scratch",
+  "main": "y",
+  "scripts": {
+    "test": "jest",
+    "dev:server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
+    "dev:bundler": "webpack -w --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deedee47/barebone_start.git"
+  },
+  "author": "Deedee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deedee47/barebone_start/issues"
+  },
+  "homepage": "https://github.com/deedee47/barebone_start#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.7",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.1",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.14.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
